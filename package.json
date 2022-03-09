@@ -1,0 +1,23 @@
+{
+  "name": "iresearch-standard",
+  "version": "1.0.0",
+  "description": "React+TypeScript编码规范",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["eslint", "prettier", "stylelint"],
+  "author": "hejl",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.10.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-airbnb-typescript": "^16.1.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.29.3",
+		"eslint-plugin-react-hooks": "^4.3.0"
+  }
+}

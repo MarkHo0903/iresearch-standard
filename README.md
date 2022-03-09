@@ -1,2 +1,1 @@
-# iresearch-standard
-React+Typescript 编码规范
+# 前端编码规范(React TS)
