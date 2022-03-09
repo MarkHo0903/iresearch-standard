@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/hjl0903/iresearch-standard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hjl0903/iresearch-standard"
+  },
   "keywords": ["eslint", "prettier", "stylelint"],
   "author": "hejl",
   "license": "ISC",
