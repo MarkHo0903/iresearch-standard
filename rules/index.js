@@ -12,6 +12,7 @@ module.exports = {
         "project": "./tsconfig.json"
     },
     rules: {
+        "consistent-return": "off",
         "react/jsx-filename-extension": [0],
         "import/no-unresolved": "off",
         "import/extensions": "off",
@@ -35,15 +36,19 @@ module.exports = {
         "import/no-useless-path-segments": "off",
         "@typescript-eslint/naming-convention": "off",
         "react/react-in-jsx-scope": "off",
+        "react-hooks/exhaustive-deps": "off",
         "no-underscore-dangle": "off",
         "react/require-default-props": "off",
         "react/destructuring-assignment": "off",
+        "react/jsx-props-no-spreading": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-unsafe-member-access": "off",
         "@typescript-eslint/no-unsafe-assignment": "off",
         "@typescript-eslint/no-unsafe-return": "off",
         "@typescript-eslint/no-floating-promises": "off",
         "@typescript-eslint/no-unsafe-argument": "off",
-        "@typescript-eslint/restrict-template-expressions": "off"
+        "@typescript-eslint/restrict-template-expressions": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/no-misused-promises": 'off'
     }
 }
